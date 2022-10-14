@@ -21,4 +21,8 @@ main {
 
 #trybewarts-forms-logo {
     height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    border: 1px solid red;
 }
