@@ -33,6 +33,33 @@
                 <option id="pytherina-house" value="Pytherina">Pytherina</option>
             </select>
             <br>
+            <section>
+                <label for="label-family" id="label-family">Qual sua família?</label>
+                
+                    <input type="radio" name="family" value="Frontend" id="Frontend" class="label-family"> 
+                    <label for="Frontend">Frontend</label>
+                    <input type="radio" name="family" value="Backend" id="Backend" class="label-family" >
+                    <label for="Backend">Backend</label>
+                    <input type="radio" name="family" value="FullStack" id="Fullstack" class="label-family">
+                    <label for="Fullstack">FullStack</label>
+            </section>
+            <br>
+            <section>
+                <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+                <input id="HoFs" type="checkbox" name="" class="subject" value="HoFs">
+                <label for="HoFs">HoFs</label>
+                <input id="Jest" type="checkbox" name="" class="subject" value="Jest">
+                <label for="Jest">Jest</label>
+                <input id="Promises" type="checkbox" name="" class="subject" value="Promises">
+                <label for="Promises">Promises</label>
+                <input id="React" type="checkbox" name="" class="subject" value="React">
+                <label for="React">React</label>
+                <input id="SQL" type="checkbox" name="" class="subject" value="SQL">
+                <label for="SQL">SQL</label>
+                <input id="Python" type="checkbox" name="" class="subject" value="Python">
+                <label for="Python">Python</label>
+            </section>
+            <br>
             <label id="label-rate" for="label-rate">Como você avalia a Trybewarts?</label>
                 <input name="rate" type="radio" value="1" id="label-rate"> 1
                 <input name="rate" type="radio" value="2" id="label-rate"> 2
@@ -49,23 +76,9 @@
             <br>
             <textarea maxlength="500" name="textarea" id="textarea" cols="30" rows="10"></textarea>
             <section>
-                <label for="label-family" id="label-family">Qual sua família?</label>
-                    
-                    <input type="radio" name="family" value="Frontend" id="label-family"> Frontend
-                    <input type="radio" name="family" value="Backend" id="label-family" > Backend
-                    <input type="radio" name="family" value="FullStack" id="label-family"> FullStack
-                
+                <input id="agreement" type="checkbox">
+                <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
             </section>
-            <section>
-                <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
-                <input type="checkbox" name="" class="subject" value="HoFs">HoFs
-                <input type="checkbox" name="" class="subject" value="Jest">Jest
-                <input type="checkbox" name="" class="subject" value="Promises">Promises
-                <input type="checkbox" name="" class="subject" value="React">React
-                <input type="checkbox" name="" class="subject" value="SQL">SQL
-                <input type="checkbox" name="" class="subject" value="Python">Python
-            </section>
-
             <button type="submit" id="submit-btn">Enviar</button>
         </form>
         <section id="photo">
