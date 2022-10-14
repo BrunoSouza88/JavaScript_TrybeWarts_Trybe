@@ -1,9 +1,13 @@
 .header {
     background-color: rgb(50, 167, 145);
     display: flex;
-}
+    border: 1px solid red;
+    height: 100px;
 
 .trybewarts-login {
+    
         display: flex;
         justify-content: flex-end;
-    }
+        align-items: center;
+        border: 1px solid red;
+}
