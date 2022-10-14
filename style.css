@@ -51,6 +51,7 @@ main {
     margin-bottom: 10px;
 }
 
-.label-family {
-    /* margin-right: 10px; */
+#label-content {
+    display: flex;
+    flex-direction: column;
 }
