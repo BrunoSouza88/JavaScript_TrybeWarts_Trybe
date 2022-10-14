@@ -15,6 +15,14 @@
     flex-direction: column;
 }
 
+#fullname {
+    flex-direction: row;
+}
+
+#dados {
+    flex-direction: row;
+}
+
 main {
     display: flex;
 }
@@ -25,4 +33,10 @@ main {
     justify-content: flex-end;
     align-self: flex-end;
     border: 1px solid red;
+}
+
+#photo {
+    width: 98vw;
+    display: flex;
+    justify-content: flex-end;
 }

@@ -19,11 +19,14 @@
     </header>
     <main>
         <form id="evaluation-form" action="">
-            
-            <input id="input-name" type="text" placeholder="Nome">
-            <input id="input-lastname" type="text" placeholder="Sobrenome">
-            <input id="input-email" type="text" placeholder="Email">
-            <select name="house" id="house">
+            <section id="fullname">
+                <input id="input-name" type="text" placeholder="Nome">
+                <input id="input-lastname" type="text" placeholder="Sobrenome">
+            </section>
+            <section id="dados">
+                <input id="input-email" type="text" placeholder="Email">
+                <select name="house" id="house">
+            </section>
                 <option id="gitnoria-house" value="Gitnória">Gitnória</option>
                 <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
                 <option id="corvinode-house" value="Corvinode">Corvinode</option>
@@ -31,7 +34,9 @@
             </select>
             
         </form>
-        <img src="/images/trybewarts-colored.svg" alt="TrybeWarts Logo Image" id="trybewarts-forms-logo">
+        <section id="photo">
+            <img src="/images/trybewarts-colored.svg" alt="TrybeWarts Logo Image" id="trybewarts-forms-logo">
+        </section>    
     </main>
     <script src="script.js"></script>
 </body>
