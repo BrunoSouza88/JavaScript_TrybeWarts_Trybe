@@ -4,6 +4,15 @@
 }
 
 .trybewarts-login {
-        display: flex;
-        align-items: center;
-    }
+    display: flex;
+    align-items: center;
+}
+
+#evaluation-form {
+    display: flex;
+    width: 675px;
+}
+
+main {
+    display: flex;
+}
