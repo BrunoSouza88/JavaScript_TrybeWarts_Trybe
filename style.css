@@ -60,5 +60,16 @@ main {
   background-color: rgb(78, 44, 131);
   color: white;
   width: 80%;
-  height: 30px;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#submit-btn:disabled {
+  background-color: gray;
+}
+
+#submit-btn:enabled:hover {
+  background-color: blueviolet;
+  cursor: grab;
 }

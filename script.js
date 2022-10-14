@@ -9,3 +9,17 @@ button.addEventListener('click', () => {
     window.alert('Email ou senha inválidos.');
   }
 });
+
+const enviar = document.getElementById('submit-btn');
+const checkbox = document.getElementById('agreement');
+
+enviar.disabled = true;
+
+checkbox.addEventListener('click', () => {
+  if (checkbox.checked === true) {
+    enviar.disabled = false;
+  }
+  if (checkbox.checked === false) {
+    enviar.disabled = true;
+  }
+});
