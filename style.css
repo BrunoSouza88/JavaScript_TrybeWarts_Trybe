@@ -33,6 +33,7 @@ main {
     justify-content: flex-end;
     align-self: flex-end;
 }
+}
 
 #photo {
     width: 98vw;
