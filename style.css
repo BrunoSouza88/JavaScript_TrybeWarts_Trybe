@@ -37,6 +37,7 @@ main {
 
 #photo {
     width: 98vw;
+    height: 30vh;
     display: flex;
     justify-content: flex-end;
 }
