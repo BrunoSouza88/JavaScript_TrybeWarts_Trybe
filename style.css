@@ -22,7 +22,7 @@
 
 #dados {
   flex-direction: row;
-  margin: 5px 0px;
+  margin: 5px;
 }
 
 main {
@@ -57,7 +57,7 @@ main {
 }
 
 #submit-btn {
-  background-color: #4e2c83;
+  background-color: rgb(78, 44, 131);
   color: white;
   width: 80%;
   height: 30px;
