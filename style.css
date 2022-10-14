@@ -38,8 +38,8 @@ main {
 
 
 #photo {
-  /* width: 98vw;
-  height: 15vh; */
+  width: 98vw;
+  height: 15vh;
   display: flex;
   justify-content: flex-end;
 }
