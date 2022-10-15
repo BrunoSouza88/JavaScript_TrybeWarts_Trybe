@@ -36,7 +36,6 @@ main {
   align-self: flex-end;
 }
 
-
 #photo {
   width: 98vw;
   height: 15vh;
@@ -57,12 +56,13 @@ main {
 }
 
 #submit-btn {
-  background-color: rgb(78, 44, 131);
+  background-color: rgb(77, 43, 130);
   color: white;
   width: 80%;
   height: 40px;
   font-size: 15px;
   text-align: center;
+  font-weight: 900;
 }
 
 #submit-btn:disabled {
@@ -72,4 +72,9 @@ main {
 #submit-btn:enabled:hover {
   background-color: blueviolet;
   cursor: grab;
+}
+
+#counter {
+  margin-top: -0.5%;
+  font-size: 15px;
 }

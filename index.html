@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+​
 <head>
     <title>Trybewarts</title>
     <link rel="stylesheet" href="style.css">
@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
+​
 <body>
     <header class="header">
         <img src="/images/trybewarts-header-logo.svg" alt="Logo Trybewarts" class="trybewarts-header-logo">
@@ -67,21 +67,22 @@
                 <label for="Python">Python</label>
             </section>
             <br>
-            <label id="label-rate" for="label-rate">Como você avalia a Trybewarts?</label>
-            <input name="rate" type="radio" value="1" id="label-rate"> 1
-            <input name="rate" type="radio" value="2" id="label-rate"> 2
-            <input name="rate" type="radio" value="3" id="label-rate"> 3
-            <input name="rate" type="radio" value="4" id="label-rate"> 4
-            <input name="rate" type="radio" value="5" id="label-rate"> 5
-            <input name="rate" type="radio" value="6" id="label-rate"> 6
-            <input name="rate" type="radio" value="7" id="label-rate"> 7
-            <input name="rate" type="radio" value="8" id="label-rate"> 8
-            <input name="rate" type="radio" value="9" id="label-rate"> 9
-            <input name="rate" type="radio" value="10" id="label-rate"> 10
+            <label id="label-rate" for="rate">Como você avalia a Trybewarts?</label>
+            <input name="rate" type="radio" value="1" class="label-rate"> 1
+            <input name="rate" type="radio" value="2" class="label-rate"> 2
+            <input name="rate" type="radio" value="3" class="label-rate"> 3
+            <input name="rate" type="radio" value="4" class="label-rate"> 4
+            <input name="rate" type="radio" value="5" class="label-rate"> 5
+            <input name="rate" type="radio" value="6" class="label-rate"> 6
+            <input name="rate" type="radio" value="7" class="label-rate"> 7
+            <input name="rate" type="radio" value="8" class="label-rate"> 8
+            <input name="rate" type="radio" value="9" class="label-rate"> 9
+            <input name="rate" type="radio" value="10" class="label-rate"> 10
             <br>
             <label class="textarea" for="textarea">Deixe seu comentário:</label>
             <br>
             <textarea maxlength="500" name="textarea" id="textarea" cols="30" rows="10"></textarea>
+            <p id="counter">500</p>
             <section>
                 <input id="agreement" type="checkbox">
                 <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
@@ -97,5 +98,5 @@
     </footer>
     <script src="script.js"></script>
 </body>
-
+​
 </html>
