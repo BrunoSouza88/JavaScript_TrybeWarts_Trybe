@@ -1,12 +1,59 @@
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  height: 100px;
 }
 
 .trybewarts-login {
+  border: 1px solid red;
   display: flex;
   align-items: center;
+}
+
+#email {
+  height: 25px;
+  width: 200px;
+}
+
+#password {
+  height: 25px;
+  width: 200px;
+}
+
+#send {
+  border: 1px solid rgb(37, 105, 42);
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 6px 10px;
+  text-decoration: none;
+}
+
+#send:hover {
+  background-color: rgb(37, 105, 42);
+}
+
+#input-name {
+  height: 25px;
+  width: 200px;
+}
+
+#input-lastname {
+  height: 25px;
+  width: 200px;
+}
+
+#input-email {
+  height: 25px;
+  width: 200px;
+}
+
+textarea {
+  resize: none;
+  width: 500px;
 }
 
 #evaluation-form {
